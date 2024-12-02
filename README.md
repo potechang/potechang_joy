@@ -1,2 +1,2 @@
-# BMS-Table-Template
-BMS難易度表のテンプレートです。
+# [ポテチャグjoy](https://potechang.github.io/potechang_joy/)
+BMS自作差分まとめ
