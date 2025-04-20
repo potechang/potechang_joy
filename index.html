@@ -30,7 +30,6 @@
             <p>BMS自作差分まとめ (obj:potechang 等)</p>
             <p>同梱譜面と比較してズレ抜けのある譜面は全て意図的です</p>
             <p>何かあればTwitterの方に連絡ください:<a href="https://twitter.com/pt10_">@pt10_</a> </p>
-            <p>難易度表の読み込みと表示に数秒かかります</p>
             <hr>
             <p class="mb-0">sl0~6=pt-2 sl7~12=pt-1 / pt0からはst基準 </p>
             <p class="mb-0"><a href="https://drive.google.com/drive/folders/1bMsulUo7aR5hfAYM8J9fNxfVJJ6DYBKy?usp=sharing">差分と段位(googleドライブ)</a></p>
@@ -59,7 +58,7 @@
 
 
                 obj.html("");
-                $("<thead class='table-dark'><tr><th>Level</th><th>Title</th><th>Artist</th><th>BPM</th><th>Notes</th><th>譜面</th><th>Comment</th></tr></thead><tbody>")
+                $("<thead class='table-dark'><tr><th>Level</th><th>Title</th><th>Artist</th><th>BPM</th><th>Notes</th><th>DL</th><th>譜面</th><th>Comment</th></tr></thead><tbody>")
                     .appendTo(obj);
                 var obj_sep = null;
                 
@@ -91,6 +90,10 @@
 
                     // Notes
                     $("<td width='5%'>" + info[i].Notes + "</td>").appendTo(str);
+
+                    // 差分DL
+                    $("<td width='5%'>" +
+                        "<a href='" + info[i].url_diff + "' target='_blank'>" + "DL" + "</a></td>").appendTo(str);
                     
                     // Chartview
                     $("<td width='5%'>" +
@@ -99,7 +102,7 @@
                         .md5 + "' target='_blank'>" + "view" + "</a></td>").appendTo(str);
                     
                     // Comment
-                    $("<td width='35%'>" + info[i].comment + "</td>").appendTo(str);
+                    $("<td width='30%'>" + info[i].comment + "</td>").appendTo(str);
                     str.appendTo(obj);
                     count++;
 
