@@ -58,7 +58,7 @@
 
 
                 obj.html("");
-                $("<thead class='table-dark'><tr><th>Level</th><th>Title</th><th>Artist</th><th>BPM</th><th>Notes</th><th>DL</th><th>譜面</th><th>Comment</th></tr></thead><tbody>")
+                $("<thead class='table-dark'><tr><th>Level</th><th>Title</th><th>Artist</th><th>BPM</th><th>Notes</th><th>T/N</th><th>DL</th><th>譜面</th><th>Comment</th></tr></thead><tbody>")
                     .appendTo(obj);
                 var obj_sep = null;
                 
@@ -91,6 +91,9 @@
                     // Notes
                     $("<td width='5%'>" + info[i].Notes + "</td>").appendTo(str);
 
+                    // T/N比
+                    $("<td width='5%'>" + info[i].T/N + "</td>").appendTo(str);
+
                     // 差分DL
                     $("<td width='5%'>" +
                         "<a href='" + info[i].url_diff + "' target='_blank'>" + "DL" + "</a></td>").appendTo(str);
@@ -102,7 +105,7 @@
                         .md5 + "' target='_blank'>" + "view" + "</a></td>").appendTo(str);
                     
                     // Comment
-                    $("<td width='30%'>" + info[i].comment + "</td>").appendTo(str);
+                    $("<td width='25%'>" + info[i].comment + "</td>").appendTo(str);
                     str.appendTo(obj);
                     count++;
 
