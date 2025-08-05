@@ -58,7 +58,7 @@
 
 
                 obj.html("");
-                $("<thead class='table-dark'><tr><th>Level</th><th>Title</th><th>Artist</th><th>BPM</th><th>Notes</th><th>T/N</th><th>DL</th><th>譜面</th><th>Comment</th></tr></thead><tbody>")
+                $("<thead class='table-dark'><tr><th>Level</th><th>Title</th><th>Artist</th><th>BPM</th><th>Notes</th><th>T/N</th><th>本体</th><th>差分</th><th>譜面</th><th>Comment</th></tr></thead><tbody>")
                     .appendTo(obj);
                 var obj_sep = null;
                 
@@ -94,9 +94,13 @@
                     // T/N比
                     $("<td width='5%'>" + info[i].TN + "</td>").appendTo(str);
 
+                    // 本体DL
+                    $("<td width='5%'>" +
+                        "<a href='" + info[i].url + "' target='_blank'>" + "本体" + "</a></td>").appendTo(str);
+                    
                     // 差分DL
                     $("<td width='5%'>" +
-                        "<a href='" + info[i].url_diff + "' target='_blank'>" + "DL" + "</a></td>").appendTo(str);
+                        "<a href='" + info[i].url_diff + "' target='_blank'>" + "差分" + "</a></td>").appendTo(str);
                     
                     // Chartview
                     $("<td width='5%'>" +
@@ -105,7 +109,7 @@
                         .md5 + "' target='_blank'>" + "view" + "</a></td>").appendTo(str);
                     
                     // Comment
-                    $("<td width='25%'>" + info[i].comment + "</td>").appendTo(str);
+                    $("<td width='20%'>" + info[i].comment + "</td>").appendTo(str);
                     str.appendTo(obj);
                     count++;
 
