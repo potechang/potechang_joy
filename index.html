@@ -100,7 +100,12 @@
                     
                     // 差分DL
                     $("<td width='5%'>" +
-                        "<a href='" + info[i].url_diff + "' target='_blank'>" + "差分" + "</a></td>").appendTo(str);
+                    (info[i].url_diff && info[i].url_diff.trim() !== ""
+                    ? "<a href='" + info[i].url_diff + "' target='_blank'>差分</a>"
+                    : "") +
+                    "</td>"
+                    ).appendTo(str);
+
                     
                     // Chartview
                     $("<td width='5%'>" +
