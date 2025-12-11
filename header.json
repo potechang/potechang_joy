@@ -2,8 +2,12 @@
 "course":[
 {"name":"ポテチャグjoy認定試験 初級","constraint":["grade_random","gauge_lr2","ln",""],"md5": ["d200750f4b4e331eee0de2d1496e2921","f8557c88092ac95e58280bb476888fad","93937361aa4b87b6aa31272511211f5f","37163eed7b2dede8b67115a7b71f3342"]},
 {"name":"ポテチャグjoy認定試験 中級","constraint":["grade_random","gauge_lr2","ln",""],"md5": ["cabb4c9e687aa2175a7b1f880bdac8b1","25cc4978e4e2dccf5aaac85df7329dc1","d380a13f4ec3abf71bd5295deccc2f8c","7b576c17375689ca2c98342a52efcbd4"]},
-{"name":"ポテチャグjoy認定試験 上級","constraint":["grade_random","gauge_lr2","ln",""],"md5": ["f2bdcff337e01e741c293a0843684a6c","05add19c1c613a77f8bca9e5e041c0c5","812e19efe6ee87456e4b601336d29ec5","11aa108618b56cbf5bbd26b54d43e4e8"]}
-
+{"name":"ポテチャグjoy認定試験 上級","constraint":["grade_random","gauge_lr2","ln",""],"md5": ["f2bdcff337e01e741c293a0843684a6c","05add19c1c613a77f8bca9e5e041c0c5","812e19efe6ee87456e4b601336d29ec5","11aa108618b56cbf5bbd26b54d43e4e8"]},
+{"name":"2025ポテチャグjoy認定試験 初級","constraint":["grade_random","gauge_lr2","ln",""],"md5": ["b732fb3464ff770ecf55c1239bde9961","e9630bf9b780a133330884dac8733dcb","93d74f12c961aea06dd540be72957756","431d7cd7c5f9169411468bdccfc0f322"]},
+{"name":"2025ポテチャグjoy認定試験 中級","constraint":["grade_random","gauge_lr2","ln",""],"md5": ["d4de4c4e89f4ee46122a329120c222ee","afd133210fc280940d0806b1976bc227","93d7f6db94df633b2e6ba08a3caae455","28d695b8f5ae4b9ca80de4a641e7a65f"]},
+{"name":"2025ポテチャグjoy認定試験 上級","constraint":["grade_random","gauge_lr2","ln",""],"md5": ["6284c5a0eacf79d9aea8c978663f6415","a6ca5be5a8800c04997a9a3def57d384","d59010bb3eea42d1fbe2825e71ca9907","c70b9cefd7b63bba3c02be6cd13b394a"]},
+{"name":"2025ポテチャグjoy認定試験 超級","constraint":["grade_random","gauge_lr2","ln",""],"md5": ["2ee452a5d99cc92919d66dd10ca9dd6c","3c981695b8e2106c4e8d484d3bf708c1","c04cb25b9ba2e2a5ab330f9d278cc224","ff2bdab728b7cda71c497f8cfdf75153"]},
+{"name":"2025ポテチャグjoy認定試験 極級","constraint":["grade_random","gauge_lr2","ln",""],"md5": ["84b2ef025f20e1e0a7ef02a325b82120","e40afc56c38b1722e49a385fea0cde28","0401b634e0e5c9d6b9c67308f883fca4","57477d7df9883fd3137f41e336806629"]}
 
 
 
