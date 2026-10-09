@@ -1,4 +1,4 @@
-{"name" : "ポテチャグjoy","symbol" : "pt","data_url" : "https://script.googleusercontent.com/macros/echo?user_content_key=AUkAhnQfYx-XwSfh_qssachCp6odebCfdTApD5lbvXTT_ETuLY3Bt4MB23O2CNMQWI0jJNj-v9atg1iyTb_6IEXJiIpX8kTS57IfzLEvhM_a-zOnSyHbCxPkVmHpM34FG1587bV9f_VGZBplGhDIWXlxKC_O9dMJ2sVt-rYpdAbR4BdWjS3qyT68I-ycidjhoTxoNr2qq5zBnz80bakyHZ7Uvy1MxjfUHU19hfqHkrf36h88_lX9NImbLoXj5Vn7bJa7yK2H9omsyFCEKgA14SOPnYJy6rXqnw&lib=MdI7xja3UhAt3M-iWu5EKC9WXFo1tmyTr",
+{"name" : "ポテチャグjoy","symbol" : "pt","data_url" : "https://script.google.com/macros/s/AKfycbxijQtcR5SrEo4Vj5QM5wlck61sgr0cuNOw0EETYcDInVW_4n-jRlU6fHUWtszvn8iI/exec",
 "course":[
 {"name":"ポテチャグjoy認定試験 初級","constraint":["grade_random","gauge_lr2","ln",""],"md5": ["d200750f4b4e331eee0de2d1496e2921","f8557c88092ac95e58280bb476888fad","93937361aa4b87b6aa31272511211f5f","37163eed7b2dede8b67115a7b71f3342"]},
 {"name":"ポテチャグjoy認定試験 中級","constraint":["grade_random","gauge_lr2","ln",""],"md5": ["cabb4c9e687aa2175a7b1f880bdac8b1","25cc4978e4e2dccf5aaac85df7329dc1","d380a13f4ec3abf71bd5295deccc2f8c","7b576c17375689ca2c98342a52efcbd4"]},
